@@ -1,5 +1,4 @@
 import { Text, Image, View, TouchableOpacity, TouchableOpacityProps } from "react-native";
-
 import DiscorImg from '../../assets/discord.png';
 import { styles } from './style';
 
