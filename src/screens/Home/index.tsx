@@ -17,7 +17,7 @@ export function Home() {
             id:'1',
             guild:{
                 id:'1',
-                name:'Lendários',
+                name:'Ghost',
                 icon:null,
                 owner:true
             },
@@ -29,12 +29,12 @@ export function Home() {
             id:'2',
             guild:{
                 id:'1',
-                name:'Lendários',
+                name:'TheBoys',
                 icon:null,
                 owner:true
             },
             category:'1',
-            date:'22/06 às 20:40h',
+            date:'27/05 às 18:00h',
             description:'É hoje que vamos chegar ao challenger sem perder uma partida da md10'
         }
     ]
@@ -57,7 +57,7 @@ export function Home() {
                     <View style={styles.content}>
                         <ListHeader
                         title='Partidas Agendadas'
-                        subtitle='Total : 6'
+                        subtitle='Total : 2'
                         />
 
                         <FlatList
