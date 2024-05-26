@@ -24,6 +24,9 @@ export function Home() {
                         categorySelected={category}
                         setCategory={handleCategorySelect}
                     />
+                    <View style={styles.content}>
+
+                    </View>
                 </View>
             </View>
         </Background>
