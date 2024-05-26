@@ -1,9 +1,13 @@
 import { View, Text } from "react-native";
 import { styles } from "./style";
-import { RectButton,RectButtonProps } from "react-native-gesture-handler";
+import { RectButton, RectButtonProps } from "react-native-gesture-handler";
+import { GuildIcon } from "../GuildIcon";
+import { categories } from "../../utils/categories";
+import PlayerSvg from '../../assets/player.svg';
+import { theme } from "../../global/styles/theme";
 
 export type GuildProps = {
-
+    owner: true,
 }
 
 export type AppointmentProps = {
@@ -19,11 +23,28 @@ type Props = RectButton & {
 }
 
 export function Appointment({ data, ...rest }: Props) {
+    const [category] = categories.filter(item => item.id === data.category);
+    const { owner } = data.guild
+    const { primary, on } = theme.colors
+
     return (
         <RectButton {...rest}
         >
             <View style={styles.container}>
-                <GuildIcon/>
+                <GuildIcon />
+                <View style={styles.content}>
+                    <View style={styles.header}>
+                        <Text style={styles.title}>
+                            {data.guild.name}
+                        </Text>
+                        <Text style={styles.category}>
+                            {category.title}
+                        </Text>
+                    </View>
+                    <View style={styles.playersInfo}>
+                        <PlayerSvg fill={owner ? primary : on} />
+                    </View>
+                </View>
             </View>
         </RectButton>
     )
