@@ -4,7 +4,7 @@ import { styles } from "./style";
 import { LinearGradient } from "expo-linear-gradient";
 
 type Props ={
-    children:ReactNode;
+    children?:ReactNode;
 }
 
 export function Background({children}: Props){
