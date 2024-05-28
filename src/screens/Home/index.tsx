@@ -41,9 +41,9 @@ export function Home() {
             id: '3',
             guild: {
                 id: '1',
-                name: 'TheBoys',
+                name: 'Minecraft',
                 icon: null,
-                owner: true
+                owner: false
             },
             category: '1',
             date: '27/05 às 18:00h',
@@ -112,6 +112,7 @@ export function Home() {
             <CategorySelect
                 categorySelected={category}
                 setCategory={handleCategorySelect}
+                hasCheckbox={true}
             />
                 <ListHeader
                     title='Partidas Agendadas'
