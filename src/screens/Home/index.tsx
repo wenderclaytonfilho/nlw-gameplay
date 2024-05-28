@@ -95,7 +95,7 @@ export function Home() {
             },
             category: '1',
             date: '27/05 às 18:00h',
-            description: 'É hoje que vamos chegar ao challenger sem perder uma partida da md10'
+            description: 'Carmesin'
         }
     ]
 
