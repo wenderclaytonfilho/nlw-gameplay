@@ -10,8 +10,6 @@ const { Navigator, Screen } = createStackNavigator();
 export function AuthRoutes() {
     return (
         <Navigator
-        //Fix
-            
             screenOptions={{
                 headerShown:false,
                 cardStyle: {
