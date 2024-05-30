@@ -20,7 +20,7 @@ export function Home() {
             id: '1',
             guild: {
                 id: '1',
-                name: 'Ghost',
+                name: 'Os caba',
                 icon: null,
                 owner: true
             },
