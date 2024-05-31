@@ -57,7 +57,7 @@ export function AppointmentDetails() {
             </ImageBackground>
             <ListHeader
                 title='Jogadores'
-                subtitle='Total : 2'
+                subtitle= {members.length.toString()}
             />
             <FlatList
                 data={members}
