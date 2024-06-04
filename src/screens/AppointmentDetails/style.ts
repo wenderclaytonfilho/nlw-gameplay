@@ -14,6 +14,7 @@ export const styles = StyleSheet.create({
         justifyContent:'flex-end',
         paddingHorizontal:24,
         marginBottom:30
+        
     },
     title:{
         fontSize:28,
