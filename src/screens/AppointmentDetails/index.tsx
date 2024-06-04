@@ -51,7 +51,7 @@ export function AppointmentDetails() {
                         Lendários
                     </Text>
                     <Text style={styles.subtitle}>
-                        Se LOL fosse bom, se chamaria "Coca Ponto"
+                        Se LOL fosse bom, se chamaria "Coca Ponto" da boa
                     </Text>
                 </View>
             </ImageBackground>
