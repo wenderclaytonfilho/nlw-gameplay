@@ -13,7 +13,7 @@ import ListDivider from '../../components/ListDivider';
 export function AppointmentDetails() {
     const codbanner = 'https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/mw3/home/hero/jpt-hero-desktop.jpg'
 
-    const members =[
+    const members=[
         {
             id:'1',
             username:'Wender',
